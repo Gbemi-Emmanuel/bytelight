@@ -1,0 +1,410 @@
+@import url('https://fonts.cdnfonts.com/css/general-sans');
+@import url('https://fonts.cdnfonts.com/css/faktum-test');
+
+                
+
+
+:root {
+    --white: #fff;
+    --black: #000;
+    --blue: #293FFF;
+    --gray: #E6E6E6;
+    --yellow: #FFCB14;
+    --purple: #7127CF;
+    --gFont: 'General Sans', sans-serif;
+    --faktum: 'Faktum Test', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+hr{
+  background: var(--gray);
+}
+
+.sectionIntro{
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.sectionAbout{
+  font-size: 42px;
+  font-family: var(--faktum);
+  font-weight: 600;
+  letter-spacing: -2px;
+}
+
+button{
+  outline: none;
+}
+
+body {
+    font-family: var(--gFont);
+    background-color: var(--white);
+    color: var(--black);
+    
+    font-weight: 400;
+}
+
+section {
+  margin: 50px 0px;
+}
+
+
+
+ header {
+    align-items: center;
+    padding: 20px 0px;
+
+}
+
+header ul > li {
+  list-style-type: none;
+  color: var(--black);
+  font-size: 16px;
+  margin: 0px 15px;
+}
+
+header ul > li  i{
+  font-size: 12px;
+  padding-left: 5px;
+}
+
+header nav .navbar-nav .nav-item .nav-link {
+  color: var(--black) ;
+} 
+
+header nav button{
+  border-radius: 20px;
+  font-size: 14px;
+  background-color: var(--black);
+  padding: 6px 12px;
+  color: var(--white);
+  margin-left: 65px;
+} 
+
+header nav button > i {
+  font-size: 14px;
+  padding: 0px 8px;
+}
+
+
+
+
+/*======= INTRO SECTION =======*/
+
+.introSection .row {
+  display: flex;
+  align-items: center;
+}
+
+.introSection .buttons{
+  margin-top: 50px;
+}
+
+.introSection .buttons button{
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 14px;
+  border: 2px solid var(--black);
+}
+
+.introSection .buttons button:first-child{
+  color: var(--white);
+  background-color: var(--black);
+}
+
+.introSection .buttons button:nth-child(2){
+  background: transparent;
+  margin-left: 10px;
+}
+
+
+.introSection .introbg img{
+  margin-top: 30px;
+  border-radius: 20px;
+}
+
+
+
+
+
+/*======= TESTIMONIAL SECTION =======*/
+
+.testimonial{
+  margin: 80px 0px;
+}
+
+.testimonial p {
+  font-size: 18px;
+  text-align: center;
+  font-weight: 500;
+}
+
+.testimonial p span{
+  color: var(--blue);
+}
+
+.testimonial .companies{
+  margin: 30px 0px;
+  display: flex;
+  justify-content: center;
+}
+
+.testimonial .companies img {
+  padding: 0px 50px;
+  height: 22px;
+}
+
+
+
+
+/*======= SERVICES SECTION =======*/
+
+.services{
+  margin: 100px 0px;
+}
+
+.services .sectionIntro {
+  color: #2400FF;
+}
+
+.services .servicesCards{
+  margin: 36px 0px;
+  border: 2px solid var(--gray);
+  border-radius: 20px;
+  padding: 28px;
+  height: 380px;
+}
+
+.services .servicesCards .iconBox img{
+  border: 2px solid var(--gray);
+  border-radius: 50%;
+  padding: 12px;
+  width: 45px;
+}
+
+.services .servicesCards h3 {
+  padding-top: 20px;
+  font-size: 18px;
+  font-family: var(--faktum);
+  font-weight: 600;
+}
+
+.services .servicesCards p {
+  padding-top: 80px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+
+
+
+
+/*======= SOLUTION SECTION =======*/
+
+.solutions .solutionSegments .sectionIntro {
+  color: var(--yellow);
+}
+
+.solutions .solutionSegments:nth-child(2) .sectionIntro {
+  color: var(--purple);
+}
+
+.solutions .solutionSegments .content{
+  margin-top: 30px;
+}
+.solutions .solutionSegments{
+  margin: 150px 0px;
+  display: flex;
+  align-items: center;
+}
+
+.solutions .solutionImgHolder img{
+  width: 400px;
+}
+
+.solutions .solutionSegments button {
+  background-color: var(--black);
+  color: var(--white);
+  padding: 6px 16px;
+  font-size: 14px;
+  margin-top: 40px;
+  border-radius: 20px;
+}
+
+.solutions .solutionSegments .subContent .top {
+  margin-top: 44px;
+  display: flex;
+  align-items: center;
+}
+
+.solutions .solutionSegments .subContent .top img{
+  padding: 12px;
+  background: var(--gray);
+  border-radius: 15px;
+  width: 50px;
+}
+
+.solutions .solutionSegments .subContent .top h4{
+  font-size: 22px;
+  padding: 0px 20px;
+  text-decoration: underline;
+}
+
+.solutions .solutionSegments .subContent .top h4 i{
+  font-size: 16px;
+  padding-left: 15px;
+}
+
+.solutions .solutionSegments .subContent p {
+  padding-top: 22px;
+}
+
+
+
+
+
+/*======= SOLUTION SECTION =======*/
+
+.Contact {
+  margin-top: 40px;
+}
+
+.Contact .left{
+  display: flex;
+  align-items: center;
+}
+.Contact h1{
+  font-family: var(--faktum);
+  letter-spacing: -2px;
+  font-size: 76px;
+  font-weight: 600;
+}
+
+.Contact h1 span{
+  color: var(--blue);
+}
+
+.Contact .right{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Contact .right img {
+  width: 35px;
+  height: 35px;
+  background-color: var(--gray);
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.Contact .right p{
+  font-weight: 500;
+}
+.Contact .left p span{
+  color: var(--blue);
+}
+
+.Contact .left .form{
+  margin-top: 50px;
+}
+
+.Contact .left .form input{
+  border: 2px solid var(--gray);
+  padding: 12px 22px;
+  outline: none;
+  border-radius: 30px;
+  width: 60%;
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+
+.Contact .left .form .terms{
+  width: 60%;
+  display: flex;
+  align-items: center;
+}
+
+.Contact .left .form .terms p{
+  font-size: 14px;
+}
+
+.Contact .left .form .terms .subscribe {
+  outline: none;
+  margin-left: 90px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 30px;
+  background-color: var(--black);
+  color: var(--white);
+  display: flex;
+}
+
+.Contact .left .form .terms .subscribe i{
+  color: var(--white);
+}
+
+
+
+/*======= FOOTER SECTION =======*/
+
+.footer {
+  margin-top: 80px;
+  margin-bottom: 0px;
+  background-color: var(--black);
+  color: var(--white);
+}
+
+.footer .row {
+  width: 85%;
+  margin: 0px auto;
+}
+
+.footer .footerContent {
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+
+.footer a img{
+  width: 150px;
+  margin-left: 50px;
+}
+
+.footer .footerContent .moreLinks ul{
+  list-style: none;
+}
+
+.footer .footerContent .moreLinks ul li{
+  color: var(--gray);
+  line-height: 32px;
+}
+
+.footer .footerContent .moreLinks ul li a {
+  color: #8687A0;
+  font-size: 14px;
+}
+
+.footer hr {
+  background-color: #8687A0;
+  margin-bottom: 50px;
+}
+
+.footer .footerBottom{
+  display: flex;
+}
+
+.footer .footerBottom p {
+  font-size: 14px;
+  color: #8687A0;
+}
+
