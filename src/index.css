@@ -50,7 +50,8 @@ body {
     font-family: var(--gFont);
     background-color: var(--white);
     color: var(--black);
-    
+    width: 85%;
+    margin: 0px auto;
     font-weight: 400;
 }
 
@@ -133,6 +134,10 @@ header nav button > i {
   border-radius: 20px;
 }
 
+
+@media screen  and (max-width: 770px) {
+  
+}
 
 
 
