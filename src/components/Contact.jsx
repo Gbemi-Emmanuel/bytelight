@@ -8,9 +8,9 @@ const Contact = () => {
                <div className="col-md-7">
                    <h1>Subscribe to </h1> <h1> <span>our newsletter</span></h1>
                    <div className="form">
-                       <input type="email" name="email" id="email" placeholder="Your email address" />
+                       <input type="email" className="emailInput" name="email" id="email" placeholder="Your email address" />
                        <div className="terms">
-                           <i></i>
+                           {/* <input type="checkbox" className="termsCheckbox" name="termsCheckbox" id="termsCheckbox" /> */}
                            <p>I agree with Privacy Policy and <br />
                             Terms of Conditions</p>
                         <button className="subscribe">Subscribe <i className="fa-solid fa-paper-plane-top"></i></button>

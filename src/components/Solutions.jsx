@@ -31,7 +31,7 @@ const Solutions = () => {
                     <button>Contact us</button>
                </div>
                <div className="col-md-5">
-                   <div className="solutionImgHolder">
+                   <div className="solutionImgHolder pt-5">
                         <img src="../img/solutions/2.png" alt="" />
                    </div>
                </div>
@@ -39,11 +39,11 @@ const Solutions = () => {
            <div className="row solutionSegments">
                <div className="col-md-5">
                    <div className="solutionImgHolder">
-                        <img src="../img/solutions/3.jpg" alt="" width="400px" />
+                        <img src="../img/solutions/3.jpg" alt="" className="solutionLastImg" />
                    </div>
                </div>
                <div className="col-md-7">
-                    <p className="sectionIntro">Work with us</p>
+                    <p className="sectionIntro pt-5">Work with us</p>
                     <h1 className="sectionAbout">Revamp your business strategies with us today!</h1>
                     <hr />
                     <p className="content">Rethink and revamp the ways your business operates to create new <br /> and improved solutions</p>

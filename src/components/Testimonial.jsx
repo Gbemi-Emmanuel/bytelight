@@ -10,15 +10,13 @@ const Testimonial = () => {
                     and trusted by top-tier companies.</p>
                 </div>
             </div>
-            <div className="row">
-                <div className="col-md-12 companies">
+            <div className="row companies">
                     <img src="../img/testimonial/forbes.png" alt="" />
                     <img src="../img/testimonial/fortune.png" alt="" />
                     <img src="../img/testimonial/tc.png" alt="" />
                     <img src="../img/testimonial/wsj.png" alt="" />
                     <img src="../img/testimonial/ft.png" alt="" />
                     <img src="../img/testimonial/cnbc.png" alt="" />
-                </div>
             </div>
         </section>
         </>

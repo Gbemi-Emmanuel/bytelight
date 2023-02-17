@@ -50,9 +50,9 @@ body {
     font-family: var(--gFont);
     background-color: var(--white);
     color: var(--black);
-    width: 85%;
-    margin: 0px auto;
+    width: 100%;
     font-weight: 400;
+
 }
 
 section {
@@ -136,7 +136,9 @@ header nav button > i {
 
 
 @media screen  and (max-width: 770px) {
-  
+  .introSection .introRight {
+    padding-top: 30px;
+  }
 }
 
 
@@ -159,13 +161,14 @@ header nav button > i {
 }
 
 .testimonial .companies{
+  width: 100%;
   margin: 30px 0px;
-  display: flex;
+  display: inline-flex;
   justify-content: center;
 }
 
 .testimonial .companies img {
-  padding: 0px 50px;
+  margin: 25px 50px;
   height: 22px;
 }
 
@@ -209,6 +212,12 @@ header nav button > i {
   font-size: 14px;
   font-weight: 500;
 }
+@media screen  and (max-width: 770px) {
+  .servicesCards{
+    width: 85%;
+    margin: 0 auto;
+  }
+}
 
 
 
@@ -231,10 +240,15 @@ header nav button > i {
   margin: 150px 0px;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .solutions .solutionImgHolder img{
-  width: 400px;
+  width: 450px;
+}
+
+.solutions .solutionImgHolder .solutionLastImg{
+  width: 300px;
 }
 
 .solutions .solutionSegments button {
@@ -274,6 +288,14 @@ header nav button > i {
   padding-top: 22px;
 }
 
+@media screen and (max-width: 670px) {
+  .solutions .solutionImgHolder img{
+    width: 300px;
+  }
+  .solutions .solutionImgHolder .solutionLastImg{
+    width: 200px;
+  }
+}
 
 
 
@@ -324,7 +346,7 @@ header nav button > i {
   margin-top: 50px;
 }
 
-.Contact .left .form input{
+.Contact .left .form .emailInput{
   border: 2px solid var(--gray);
   padding: 12px 22px;
   outline: none;
@@ -340,13 +362,17 @@ header nav button > i {
   align-items: center;
 }
 
+/* .Contact .left .form .terms .termsCheckbox{
+  background-color: #000
+} */
 .Contact .left .form .terms p{
   font-size: 14px;
+  width: 75%;
+  padding-right: 30px;
 }
 
 .Contact .left .form .terms .subscribe {
   outline: none;
-  margin-left: 90px;
   padding: 10px 20px;
   font-size: 16px;
   border-radius: 30px;
@@ -357,6 +383,24 @@ header nav button > i {
 
 .Contact .left .form .terms .subscribe i{
   color: var(--white);
+}
+@media screen  and (max-width: 770px) {
+  .Contact h1{
+    font-size: 56px;
+  }
+  .Contact .left .form .emailInput{
+    width: 80%;
+  }
+  .Contact .left .form .terms{
+    width: 80%;
+  }
+  .Contact .left .form .terms p{
+    font-size: 12px;
+  }
+  .Contact .right p{
+    padding-top: 30px;
+    padding-left: 20px;
+  }
 }
 
 
@@ -371,7 +415,7 @@ header nav button > i {
 }
 
 .footer .row {
-  width: 85%;
+  width: 100%;
   margin: 0px auto;
 }
 
@@ -413,3 +457,8 @@ header nav button > i {
   color: #8687A0;
 }
 
+@media screen  and (max-width: 770px) {
+  .footer .footerContent .moreLinks:first-child p{
+    margin-top: 40px;
+  }
+}

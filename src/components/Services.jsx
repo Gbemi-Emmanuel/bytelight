@@ -5,12 +5,12 @@ const Services = () => {
         <>
         <section className="services container">
             <div className="row">
-                <div className="col-md-12">
+                <div className="col-md-12 col-6">
                     <p className="sectionIntro">Solutions for every factor</p>
                     <h1 className="sectionAbout">Software architecture, design and <br />implementation for any industry🔥.</h1>
                 </div>
             </div>
-            <div className="row">
+            <div className="row d-flex justify-content-center">
                 <div className="col-md-3">
                     <div className="servicesCards">
                         <div className="iconBox">

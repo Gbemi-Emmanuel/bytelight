@@ -11,15 +11,19 @@ import Footer from './components/footer';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <>
+  <div>
+  <div  className="container">
   <Header />
   <IntroSection />
   <Testimonial />
   <Services />
   <Solutions />
   <Contact />
+  </div>
+  <div  className="container-fluid">
   <Footer />
-  </>
+  </div>
+  </div>
 );
 
  
